@@ -25,6 +25,10 @@ Agave Contributors
 
   * Developer
 
+* **[Lorenzo Ponticelli](https://github.com/lorezz)
+
+  * Developer
+
 * **[Damiano Giacomello](https://github.com/damjack)
 
   * Developer
