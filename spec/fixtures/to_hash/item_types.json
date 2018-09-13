@@ -1,0 +1,14 @@
+{
+  "article": [
+    {
+      "id": "2",
+      "item_type": "article",
+      "updated_at": "2018-09-13 07:46:19 UTC",
+      "created_at": null,
+      "title": "First post",
+      "slug": "first-post",
+      "image": null,
+      "file": null
+    }
+  ]
+}

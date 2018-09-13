@@ -1,0 +1,445 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://agave.lvh.me:3001/api/item-types
+    body:
+      encoding: UTF-8
+      string: '{"data":{"type":"item_type","attributes":{"name":"Article","api_key":"article","singleton":false,"sortable":false,"tree":false,"ordering_direction":null},"relationships":{"ordering_field":{"data":null}}}}'
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"8c2845d230a5b5fff1c799132f48ac42"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 24de3da0-d7a3-4cf9-a7d4-1a224881e7b5
+      X-Runtime:
+      - '0.059921'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjp7ImlkIjoiOCIsInR5cGUiOiJpdGVtX3R5cGUiLCJhdHRyaWJ1
+        dGVzIjp7Im5hbWUiOiJBcnRpY2xlIiwic2luZ2xldG9uIjpmYWxzZSwic29y
+        dGFibGUiOmZhbHNlLCJhcGlfa2V5IjoiYXJ0aWNsZSIsIm9yZGVyaW5nX2Rp
+        cmVjdGlvbiI6bnVsbCwidHJlZSI6ZmFsc2V9LCJyZWxhdGlvbnNoaXBzIjp7
+        ImZpZWxkcyI6eyJkYXRhIjpbXX0sInNpbmdsZXRvbl9pdGVtIjp7ImRhdGEi
+        Om51bGx9LCJvcmRlcmluZ19maWVsZCI6eyJkYXRhIjpudWxsfX19fQ==
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:55 GMT
+- request:
+    method: post
+    uri: http://agave.lvh.me:3001/api/item-types/8/fields
+    body:
+      encoding: UTF-8
+      string: '{"data":{"type":"field","attributes":{"label":"Title","field_type":"string","localized":false,"api_key":"title","hint":"","validators":{"required":{},"length":{"min":5}},"appeareance":{"type":"title"},"position":99}}}'
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"6b3c4f532728229ba8122388ed6d6731"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '08bd8cce-ba1e-4201-b386-5a002194b170'
+      X-Runtime:
+      - '0.159690'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjp7ImlkIjoiMiIsInR5cGUiOiJmaWVsZCIsImF0dHJpYnV0ZXMi
+        OnsibGFiZWwiOiJUaXRsZSIsImZpZWxkX3R5cGUiOiJzdHJpbmciLCJhcGlf
+        a2V5IjoidGl0bGUiLCJoaW50IjpudWxsLCJsb2NhbGl6ZWQiOmZhbHNlLCJ2
+        YWxpZGF0b3JzIjp7InJlcXVpcmVkIjp7fSwibGVuZ3RoIjp7Im1pbiI6NX19
+        LCJwb3NpdGlvbiI6MSwiYXBwZWFyZWFuY2UiOnsidHlwZSI6InRpdGxlIn19
+        LCJyZWxhdGlvbnNoaXBzIjp7Iml0ZW1fdHlwZSI6eyJkYXRhIjp7ImlkIjoi
+        OCIsInR5cGUiOiJpdGVtX3R5cGUifX19fX0=
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+- request:
+    method: get
+    uri: http://agave.lvh.me:3001/api/item-types/8/fields
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"ed7613336dbd68f7345101e14614d808"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a6fc2f23-27f7-4712-98fe-2e63e463c709
+      X-Runtime:
+      - '0.045675'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjpbeyJpZCI6IjIiLCJ0eXBlIjoiZmllbGQiLCJhdHRyaWJ1dGVz
+        Ijp7ImxhYmVsIjoiVGl0bGUiLCJmaWVsZF90eXBlIjoic3RyaW5nIiwiYXBp
+        X2tleSI6InRpdGxlIiwiaGludCI6bnVsbCwibG9jYWxpemVkIjpmYWxzZSwi
+        dmFsaWRhdG9ycyI6eyJyZXF1aXJlZCI6e30sImxlbmd0aCI6eyJtaW4iOjV9
+        fSwicG9zaXRpb24iOjEsImFwcGVhcmVhbmNlIjp7InR5cGUiOiJ0aXRsZSJ9
+        fSwicmVsYXRpb25zaGlwcyI6eyJpdGVtX3R5cGUiOnsiZGF0YSI6eyJpZCI6
+        IjgiLCJ0eXBlIjoiaXRlbV90eXBlIn19fX1dfQ==
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+- request:
+    method: put
+    uri: http://agave.lvh.me:3001/api/fields/2
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"2","type":"field","attributes":{"label":"Article title","api_key":"title","localized":false,"validators":{"required":{},"length":{"min":5}},"appeareance":{"type":"title"},"position":1,"hint":null}}}'
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"9fad30ea465cb9495dfe562ad8f29204"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ae46d8f8-1198-4ee2-898b-aa65eb41413e
+      X-Runtime:
+      - '0.076562'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjp7ImlkIjoiMiIsInR5cGUiOiJmaWVsZCIsImF0dHJpYnV0ZXMi
+        OnsibGFiZWwiOiJBcnRpY2xlIHRpdGxlIiwiZmllbGRfdHlwZSI6InN0cmlu
+        ZyIsImFwaV9rZXkiOiJ0aXRsZSIsImhpbnQiOm51bGwsImxvY2FsaXplZCI6
+        ZmFsc2UsInZhbGlkYXRvcnMiOnsicmVxdWlyZWQiOnt9LCJsZW5ndGgiOnsi
+        bWluIjo1fX0sInBvc2l0aW9uIjoxLCJhcHBlYXJlYW5jZSI6eyJ0eXBlIjoi
+        dGl0bGUifX0sInJlbGF0aW9uc2hpcHMiOnsiaXRlbV90eXBlIjp7ImRhdGEi
+        OnsiaWQiOiI4IiwidHlwZSI6Iml0ZW1fdHlwZSJ9fX19fQ==
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+- request:
+    method: get
+    uri: http://agave.lvh.me:3001/api/fields/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"9fad30ea465cb9495dfe562ad8f29204"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b7cd046d-652f-41ff-844a-eb16b0c4f536
+      X-Runtime:
+      - '0.023463'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjp7ImlkIjoiMiIsInR5cGUiOiJmaWVsZCIsImF0dHJpYnV0ZXMi
+        OnsibGFiZWwiOiJBcnRpY2xlIHRpdGxlIiwiZmllbGRfdHlwZSI6InN0cmlu
+        ZyIsImFwaV9rZXkiOiJ0aXRsZSIsImhpbnQiOm51bGwsImxvY2FsaXplZCI6
+        ZmFsc2UsInZhbGlkYXRvcnMiOnsicmVxdWlyZWQiOnt9LCJsZW5ndGgiOnsi
+        bWluIjo1fX0sInBvc2l0aW9uIjoxLCJhcHBlYXJlYW5jZSI6eyJ0eXBlIjoi
+        dGl0bGUifX0sInJlbGF0aW9uc2hpcHMiOnsiaXRlbV90eXBlIjp7ImRhdGEi
+        OnsiaWQiOiI4IiwidHlwZSI6Iml0ZW1fdHlwZSJ9fX19fQ==
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+- request:
+    method: delete
+    uri: http://agave.lvh.me:3001/api/fields/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"9fad30ea465cb9495dfe562ad8f29204"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e2024e07-5767-4f94-b075-04d0bab2228b
+      X-Runtime:
+      - '0.074462'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjp7ImlkIjoiMiIsInR5cGUiOiJmaWVsZCIsImF0dHJpYnV0ZXMi
+        OnsibGFiZWwiOiJBcnRpY2xlIHRpdGxlIiwiZmllbGRfdHlwZSI6InN0cmlu
+        ZyIsImFwaV9rZXkiOiJ0aXRsZSIsImhpbnQiOm51bGwsImxvY2FsaXplZCI6
+        ZmFsc2UsInZhbGlkYXRvcnMiOnsicmVxdWlyZWQiOnt9LCJsZW5ndGgiOnsi
+        bWluIjo1fX0sInBvc2l0aW9uIjoxLCJhcHBlYXJlYW5jZSI6eyJ0eXBlIjoi
+        dGl0bGUifX0sInJlbGF0aW9uc2hpcHMiOnsiaXRlbV90eXBlIjp7ImRhdGEi
+        OnsiaWQiOiI4IiwidHlwZSI6Iml0ZW1fdHlwZSJ9fX19fQ==
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+- request:
+    method: get
+    uri: http://agave.lvh.me:3001/api/item-types/8/fields
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"3644f050ec2a1a67bc2a573d5c6ce0f9"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3518e3a3-3d6d-4f2e-9f23-ba3c46920103
+      X-Runtime:
+      - '0.018535'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: 'eyJkYXRhIjpbXX0=
+
+'
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+- request:
+    method: get
+    uri: http://agave.lvh.me:3001/api/item-types
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"055dbee011b56214468a9d45bba28d7b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - dad26db7-5ec2-4855-a357-20609dddb8e3
+      X-Runtime:
+      - '0.033505'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjpbeyJpZCI6IjgiLCJ0eXBlIjoiaXRlbV90eXBlIiwiYXR0cmli
+        dXRlcyI6eyJuYW1lIjoiQXJ0aWNsZSIsInNpbmdsZXRvbiI6ZmFsc2UsInNv
+        cnRhYmxlIjpmYWxzZSwiYXBpX2tleSI6ImFydGljbGUiLCJvcmRlcmluZ19k
+        aXJlY3Rpb24iOm51bGwsInRyZWUiOmZhbHNlfSwicmVsYXRpb25zaGlwcyI6
+        eyJmaWVsZHMiOnsiZGF0YSI6W119LCJzaW5nbGV0b25faXRlbSI6eyJkYXRh
+        IjpudWxsfSwib3JkZXJpbmdfZmllbGQiOnsiZGF0YSI6bnVsbH19fV19
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+- request:
+    method: delete
+    uri: http://agave.lvh.me:3001/api/item-types/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Etag:
+      - W/"3088a7dd9b997f4daf5da6a8d6ed9346"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4b383a21-5b45-4c4d-a7b9-186adffe1f6e
+      X-Runtime:
+      - '0.081884'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjp7ImlkIjoiOCIsInR5cGUiOiJpdGVtX3R5cGUiLCJhdHRyaWJ1
+        dGVzIjp7Im5hbWUiOiJBcnRpY2xlIiwic2luZ2xldG9uIjpmYWxzZSwic29y
+        dGFibGUiOmZhbHNlLCJhcGlfa2V5IjoiYXJ0aWNsZSIsIm9yZGVyaW5nX2Rp
+        cmVjdGlvbiI6bnVsbCwidHJlZSI6ZmFsc2V9LCJyZWxhdGlvbnNoaXBzIjp7
+        ImZpZWxkcyI6eyJkYXRhIjpbXX0sInNpbmdsZXRvbl9pdGVtIjp7ImRhdGEi
+        Om51bGx9LCJvcmRlcmluZ19maWVsZCI6eyJkYXRhIjpudWxsfX19fQ==
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:56 GMT
+recorded_with: VCR 4.0.0

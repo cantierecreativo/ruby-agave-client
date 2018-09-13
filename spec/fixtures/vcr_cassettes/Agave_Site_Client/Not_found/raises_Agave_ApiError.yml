@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://agave.lvh.me:3001/api/item-types/44
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+      Authorization:
+      - Bearer rwtoken
+      User-Agent:
+      - ruby-client v0.6.6
+      X-Api-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding, Origin
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 6ea95230-52a6-40eb-9137-d4dd4fd14382
+      X-Runtime:
+      - '0.221613'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      base64_string: |
+        eyJkYXRhIjpbeyJpZCI6Ik5PVF9GT1VORCIsInR5cGUiOiJhcGlfZXJyb3Ii
+        LCJhdHRyaWJ1dGVzIjp7ImRldGFpbHMiOnsibWVzc2FnZSI6IkNvdWxkbid0
+        IGZpbmQgSXRlbVR5cGUgd2l0aCAnaWQnPTQ0IFtXSEVSRSBcIml0ZW1fdHlw
+        ZXNcIi5cInNpdGVfaWRcIiA9ICQxXSJ9fX1dfQ==
+    http_version: 
+  recorded_at: Thu, 13 Sep 2018 07:40:53 GMT
+recorded_with: VCR 4.0.0

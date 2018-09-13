@@ -1,0 +1,40 @@
+{
+  "id": "1",
+  "name": "My Blog",
+  "locales": [
+    "en",
+    "it"
+  ],
+  "theme": {
+    "primary_color": {
+      "red": 63,
+      "blue": 63,
+      "alpha": 63,
+      "green": 63
+    },
+    "dark_color": {
+      "red": 0,
+      "blue": 0,
+      "alpha": 0,
+      "green": 0
+    },
+    "light_color": {
+      "red": 127,
+      "blue": 127,
+      "alpha": 127,
+      "green": 127
+    },
+    "accent_color": {
+      "red": 255,
+      "blue": 255,
+      "alpha": 255,
+      "green": 255
+    },
+    "logo": null
+  },
+  "domain": "agave.lvh.me",
+  "no_index": false,
+  "global_seo": null,
+  "favicon": null,
+  "production_frontend_url": null
+}

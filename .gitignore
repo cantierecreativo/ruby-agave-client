@@ -1,0 +1,12 @@
+/coverage/
+*.gem
+
+.rspec_status
+/.bundle/
+/.config
+/.yardoc
+/.yardoc/
+
+/doc/
+/Gemfile.lock
+/.ruby-version
