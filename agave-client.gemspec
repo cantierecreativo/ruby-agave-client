@@ -41,19 +41,19 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubyzip'
   spec.add_development_dependency 'simplecov'
   spec.add_development_dependency 'vcr'
-  spec.add_development_dependency 'webmock', '~> 3.4', '>= 3.4.2'
+  spec.add_development_dependency 'webmock', ['>= 3.4.2']
   spec.add_development_dependency 'rubocop', '0.57.2'
   spec.add_development_dependency 'diff_dirs'
   spec.add_development_dependency 'coveralls', '~> 0'
 
-  spec.add_runtime_dependency 'faraday', '~> 0.9', '>= 0.9.0'
-  spec.add_runtime_dependency 'faraday_middleware', '~> 0.9', '>= 0.9.0'
-  spec.add_runtime_dependency 'activesupport', '~> 4.2', '>= 4.2.7'
+  spec.add_runtime_dependency 'faraday', ['>= 0.9.0']
+  spec.add_runtime_dependency 'faraday_middleware', ['>= 0.9.0']
+  spec.add_runtime_dependency 'activesupport', ['>= 4.2.7']
   spec.add_runtime_dependency 'fastimage'
   spec.add_runtime_dependency 'downloadr'
   spec.add_runtime_dependency 'addressable'
   spec.add_runtime_dependency 'thor'
-  spec.add_runtime_dependency 'imgix', '~> 0.3', '>= 0.3.1'
+  spec.add_runtime_dependency 'imgix', ['>= 0.3.1']
   spec.add_runtime_dependency 'toml'
   spec.add_runtime_dependency 'cacert'
   spec.add_runtime_dependency 'dotenv'
