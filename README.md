@@ -5,8 +5,8 @@
 | Gem name               | agave-client |
 | License                | [BSD 3](https://github.com/cantierecreativo/ruby-agave-client/blob/master/LICENSE) |
 | Version                | [![Gem Version](https://badge.fury.io/rb/agave-client.svg)](https://badge.fury.io/rb/agave-client) |
-| Continuous integration | [![Build Status](https://secure.travis-ci.org/cantierecreativo/ruby-agave-client.svg?branch=master)](https://travis-ci.org/cantierecreativo/ruby-agave-client) |
-| Test coverate          | [![Coverage Status](https://coveralls.io/repos/github/cantierecreativo/ruby-agave-client/badge.svg?branch=master)](https://coveralls.io/github/cantierecreativo/ruby-agave-client?branch=master) |
+| Continuous integration | [![Build Status](https://secure.travis-ci.org/italia/ruby-agave-client.svg?branch=master)](https://travis-ci.org/italia/ruby-agave-client) |
+| Test coverate          | [![Coverage Status](https://coveralls.io/repos/github/italia/ruby-agave-client/badge.svg?branch=master)](https://coveralls.io/github/italia/ruby-agave-client?branch=master) |
 | Credits                | [Contributors](https://github.com/cantierecreativo/ruby-agave-client/graphs/contributors) |
 
 CLI tool for AgaveCMS (https://github.com/cantierecreativo/agavecms).
