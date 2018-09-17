@@ -14,7 +14,8 @@ Gem::Specification.new do |spec|
     'Domenico Garofoli',
     'Damiano Giacomello',
     'Silvio Relli',
-    'Lorenzo Ponticelli'
+    'Lorenzo Ponticelli',
+    'Matteo Manzo'
   ]
   spec.email         = [
     's.verna@cantierecreativo.net',
@@ -22,7 +23,8 @@ Gem::Specification.new do |spec|
     'd.garofoli@cantierecreativo.net',
     'd.giacomello@cantierecreativo.net',
     's.relli@cantierecreativo.net',
-    'l.ponticelli@cantierecreativo.net'
+    'l.ponticelli@cantierecreativo.net',
+    'm.manzo@cantierecreativo.net'
   ]
 
   spec.summary       = 'Ruby client per AgaveCMS API'
