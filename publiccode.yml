@@ -1,0 +1,43 @@
+publiccode-yaml-version: '0.1'
+
+releaseDate: '2018-09-17'
+name: Client Ruby per Agave CMS
+url: 'https://github.com/italia/ruby-agave-client'
+softwareType: standalone
+developmentStatus: stable
+
+platforms:
+  - web
+tags:
+  - content-management
+
+softwareVersion: 1.0.0
+
+maintenance:
+  type: community
+  contacts:
+    - name: Cantiere Creativo
+      email: info@cantierecreativo.net
+
+legal:
+  license: BSD 3-Clause License
+  repoOwner: Developers Italia
+
+it:
+  conforme:
+    sicuro: 'yes'
+
+description:
+  ita:
+    shortDescription: >-
+      Client Ruby per la connessione ad Agave CMS e la generazione del dump
+      dei dati compatibile con il sistema Jekyll
+    longDescription: >-
+      <p>Agave CMS offre uno strumento CLI basato su Ruby che rende estremamente
+      conveniente la trasformazione del contenuto archiviato nell'area
+      amministrativa in locale:</p>
+
+      <ul>
+        <li>posts e collection Jekyll (completi di frontespizio YAML)</li>
+        <li>file di dati di Jekyll</li>
+      </ul>
