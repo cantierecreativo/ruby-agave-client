@@ -3,13 +3,13 @@
 | Project                | Agave Ruby Client |
 | ---------------------- | ------------ |
 | Gem name               | agave-client |
-| License                | [BSD 3](https://github.com/cantierecreativo/ruby-agave-client/blob/master/LICENSE) |
+| License                | [BSD 3](https://github.com/italia/ruby-agave-client/blob/master/LICENSE) |
 | Version                | [![Gem Version](https://badge.fury.io/rb/agave-client.svg)](https://badge.fury.io/rb/agave-client) |
 | Continuous integration | [![Build Status](https://secure.travis-ci.org/italia/ruby-agave-client.svg?branch=master)](https://travis-ci.org/italia/ruby-agave-client) |
 | Test coverate          | [![Coverage Status](https://coveralls.io/repos/github/italia/ruby-agave-client/badge.svg?branch=master)](https://coveralls.io/github/italia/ruby-agave-client?branch=master) |
-| Credits                | [Contributors](https://github.com/cantierecreativo/ruby-agave-client/graphs/contributors) |
+| Credits                | [Contributors](https://github.com/italia/ruby-agave-client/graphs/contributors) |
 
-CLI tool for AgaveCMS (https://github.com/cantierecreativo/agavecms).
+CLI tool for AgaveCMS (https://github.com/italia/agavecms).
 
 ## How to run tests
 
@@ -30,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/cantierecreativo/ruby-agave-client. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/italia/ruby-agave-client. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
